@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "lunch-timer",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

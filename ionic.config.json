@@ -1,0 +1,7 @@
+{
+  "name": "lunch-timer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
