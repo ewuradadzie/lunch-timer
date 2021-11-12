@@ -1,0 +1,35 @@
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating" style="color: rgb(67, 79, 119)">
+        Starting time
+      </ion-label>
+      <ion-input placeholder="eg. 11:30, 12:10" type='time' [(ngModel)]='start'></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" style="color: rgb(67, 79, 119)">
+        Number of slots
+      </ion-label>
+      <ion-input type="number" [(ngModel)]='slots'></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" style="color: rgb(67, 79, 119)">
+        Slot duration (mins)
+      </ion-label>
+      <ion-input placeholder="eg. 30, 35" type="number" [(ngModel)]='duration'></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" style="color: rgb(67, 79, 119)">
+        Interval (mins)
+      </ion-label>
+      <ion-input placeholder="eg. 5, 10" type="number" [(ngModel)]='interval'></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button fill="block" (click)='save()'>
+    <ion-icon name="checkmark" style='--ionicon-stroke-width: 50px; color: rgb(67, 79, 119)'></ion-icon>
+  </ion-button>
+</ion-content>
